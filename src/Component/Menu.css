@@ -1,0 +1,275 @@
+
+.menuConteiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;   
+}
+
+
+
+.menu{    
+       
+    color: white;    
+    padding: 0;     
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 450px auto auto; 
+    gap: 10px; 
+    margin-left: 80px;
+}
+
+.imgMenu{
+    width: 200px;
+    height: 200px;
+}
+
+
+.textType{
+    color: white;
+    font-size: 60px;
+    margin:40px;
+    margin-left: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+.name{
+    color: white;
+    font-size: 30px;
+}
+
+.description{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.informations{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.price{
+
+    color: white;
+    font-size: 20px;
+}
+
+.btnChoose{
+    border-color: rgb(255, 119, 0);
+    width: 140px;
+    height: 40px;
+    border-radius: 5%;
+    background: none;
+    color:  rgb(255, 119, 0);
+    font-size: 20px;
+}
+
+.btnChoose:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.grid-item {
+    
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.paymentContainer {
+    background-color: black;
+    width: auto;
+    min-height: 250px;        
+    margin: 100px;    
+    box-shadow: 0 0 10px 10px rgb(247, 142, 4, 0.25);
+    background-color: rgb(54, 54, 54);
+    border-radius: 20px;
+
+       
+}
+
+.tabName{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 119, 0);
+    height: 30px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+       
+}
+
+.colorCartLine{
+    background-color: black;
+}
+
+
+
+.itemsInf {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    align-items: center;
+    
+  }
+  
+  .cartItem {
+    width: 150px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    font-size: 20px;
+    height: 54px; 
+    max-width: 90px;
+   
+  }
+  
+  .cartImage {
+    width: 60px;
+    height: 50px; 
+  }
+  
+  .itemName {
+    color: white;
+    font-size: 20px;
+    width: auto;
+    margin-left: 40px;
+  }
+  
+  .cartItemImg {
+    width: 150px; 
+    display: flex;    
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    
+  }
+
+  .btnAddMin {
+    display: flex;
+    gap: 10px;
+  }
+
+  .btnAdd{
+    background-color: rgb(13, 208, 13);
+    border-radius: 10%;
+    border: 1px solid white;
+  }
+
+  .btnMin{
+    background-color: rgb(233, 81, 21);
+    border-radius: 10%;
+    border: 1px solid white;
+    
+    
+  }
+
+  .btnDelete{
+    background-color: black;
+    color: rgb(232, 29, 178);
+    font-size: 15px;
+    border: none;
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+  .total{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    width: 95%;
+    height: auto;
+    display: flex; 
+    margin-right: 100px;
+
+  }
+
+  .paymentBtn{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: auto;
+    display: flex; 
+    margin-bottom: 10px;
+
+  }
+
+  .payBtn{
+    width: 300px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+
+  }
+
+  .textCart{
+    color: white;
+    font-size: 40px;
+    margin:40px 0;
+    margin-left: 100px;
+    
+}
+
+.menu > div:hover  {
+
+  transform: translateY(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(247, 142, 4, 0.25)
+
+}
+.payBtn:hover {
+
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+@media (max-width: 900px) {
+  .menu {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto auto;
+      margin-left: 20px; 
+  }
+
+  .textType {
+      font-size: 40px;
+      margin-left: 40px;
+  }
+
+  
+}
+
+
+@media (max-width: 650px) {
+  .menu {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      margin-left: 10px; 
+  }
+
+  .textType {
+      font-size: 30px;
+      margin-left: 20px;
+  }
+
+ 
+}

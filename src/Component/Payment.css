@@ -1,0 +1,205 @@
+.descriptionTitle{
+    color: rgb(255, 255, 255);
+    font-size: 40px;    
+    margin: 10px 20px 10px 10px;
+    font-family: 'Dancing Script', cursive;    
+    opacity: 0.8;
+}
+
+label{
+    color: rgb(120, 119, 119);
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: lighter;
+    
+    
+    
+}
+
+input, textarea {
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 20px;
+    margin: 3px 0 10px 0 ;
+    width: 60%;
+    height: 20px;
+}
+
+.paymentForm{
+    margin: 50px 100px;
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto auto;    
+
+}
+
+.PickorDel{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.orderList{
+    
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.orderDetail{
+    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    box-shadow: 0 0 10px 10px rgb(7, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(54, 54, 54);
+    
+}
+
+.cardInf{
+    
+    width: 120%;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 10px 10px rgb(7, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(32, 32, 32);
+
+    
+}
+
+.cardOnSite{
+    width: 100%;
+    margin: 0 15px;
+}
+
+
+.check{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid orange;    
+    align-items: center;
+}
+
+.checkCont{
+    width: 200px;
+    height: 30px;    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.orderItens{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 10px;
+    
+
+}
+
+.orderTotal{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+}
+
+.orderTotal{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.orderSide{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 15px;
+    padding: 0;
+    
+}
+
+.type, .totalType {
+    margin: 20px 0;
+}
+
+.optionPayment{
+    background:   rgb(255, 119, 0);
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.deliveryOpt{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background:   rgb(255, 119, 0);
+    color: black;
+    
+}
+
+
+.PickOpt{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;    
+    background:   rgb(255, 119, 0);
+    color: black;
+
+}
+
+.back{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+.confirm{
+    background:   rgb(255, 119, 0);
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+.paymentBtn{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .paymentForm {
+        grid-template-columns: 1fr; 
+        margin: 50px 10px; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .orderList {
+        
+        justify-content: left;
+
+    }
+
+   
+}
