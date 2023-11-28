@@ -1,6 +1,6 @@
 {
-  "homepage": "http://RECdigo.github.io/",
-  "name": "foodorder",
+  "homepage": "http://RECdigo.github.io/foodorder",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
