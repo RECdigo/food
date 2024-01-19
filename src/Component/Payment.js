@@ -148,7 +148,7 @@ function OrderForm() {
               )  }              
               
                 <div className='paymentBtn'>
-                  <Link  to="/"><button className='back'>BACK TO CARD</button></Link>
+                  <Link  to="/food"><button className='back'>BACK TO CARD</button></Link>
                   <button type="submit" className='confirm'><strong>ORDER FOR  ${calculateTotalTaxTotal(cartItems)}</strong></button>
                 </div>
           </div>

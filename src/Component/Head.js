@@ -22,7 +22,7 @@ function Head() {
 
   return (
     <div className='header'>
-      <div className='logo'><Link to="/"><img className="logoImg" src={Logo} alt="logoImage"/></Link></div>
+      <div className='logo'><Link to="/food"><img className="logoImg" src={Logo} alt="logoImage"/></Link></div>
      
       <div className='center'>
         <li className="centerOpt">Menu</li>

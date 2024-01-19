@@ -256,7 +256,7 @@ function Menu() {
         </div>
 
         <div className='paymentBtn'>
-          <button className='payBtn'><Link className='payBtn' to="/payment">Payment</Link></button>
+          <button className='payBtn'><Link className='payBtn' to="/food/payment">Payment</Link></button>
         </div>
       
         </div>

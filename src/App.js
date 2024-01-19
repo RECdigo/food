@@ -19,10 +19,12 @@ function App() {
             <div className='app'>
               
               <Routes>                
-                <Route path='/' element={<Menu />} />  
-                <Route path='/payment' element={<Payment />} />             
+                <Route path='/food' element={<Menu />} />  
+                <Route path='/food/payment' element={<Payment />} />             
               </Routes>    
+
             </div>
+            
           </div>
 
     </BrowserRouter>

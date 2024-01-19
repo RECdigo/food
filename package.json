@@ -1,5 +1,5 @@
 {
-  "homepage": "http://RECdigo.github.io/foodorder",
+  "homepage": "https://RECdigo.github.io/food",
   "name": "foodorder",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeply": "npm run build",
+    "start": "react-scripts start --start_url /",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.0"
   }
 }
